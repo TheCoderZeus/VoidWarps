@@ -1,0 +1,30 @@
+name: VoidWarps
+version: '${project.version}'
+main: com.voidplugins.voidwarps.WarpPlugin
+api-version: 1.8
+authors: [VoidPlugins]
+description: Sistema de warps com menu e recursos premium
+
+commands:
+  warp:
+    description: Teleporta para uma warp
+    usage: /warp <nome>
+  warps:
+    description: Abre o menu de warps
+    usage: /warps
+  setwarp:
+    description: Define uma nova warp
+    usage: /setwarp <nome>
+    permission: voidwarps.admin
+  delwarp:
+    description: Remove uma warp
+    usage: /delwarp <nome>
+    permission: voidwarps.admin
+
+permissions:
+  voidwarps.admin:
+    description: Permite gerenciar warps
+    default: op
+  voidwarps.use:
+    description: Permite usar warps
+    default: true
