@@ -1,0 +1,24 @@
+# Configurações gerais do inventário de warps
+inventory:
+  size: 27 # deve ser múltiplo de 9 entre 9 e 54
+  title: "§6Warps" # título do inventário
+
+  # Slots de cada warp no inventário (key é o nome da warp em minúsculo)
+  slots:
+    spawn: 13
+    loja: 15
+
+  # Itens para cada warp com nome, material e lore personalizáveis
+  items:
+    spawn:
+      name: "&aWarp Spawn"
+      # Você pode usar um material normal
+      material: "DIAMOND_SWORD"
+      lore:
+        - "&7Teleporte para o spawn principal"
+    loja:
+      name: "&bWarp Loja"
+      # Ou usar uma skull customizada do minecraft-heads
+      skull-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U4MDI4NjFjOWM2Yzg5NGQxOGExZmUyZTIzOGQ2OTA4NTQ2OGNjODc1N2UxMzU3NTY0YmJhOTdlMDY3ZmVkMCJ9fX0="
+      lore:
+        - "&7Acesse a loja do servidor"

@@ -1,0 +1,9 @@
+messages:
+  warp-not-found: "§cWarp não encontrada."
+  warp-no-location: "§cWarp não possui localização definida."
+  warp-teleport: "§aTeleportado para a warp §f{warp}."
+  warp-set: "§aWarp §f{warp} §asetada na sua localização atual."
+  no-warps: "§cNenhuma warp configurada."
+  no-permission: "§cVocê não tem permissão para executar este comando."
+  inv-closed: "§eInventário fechado."
+  not-configured: "§cEsta warp não está configurada."
